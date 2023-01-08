@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HorseTrack/1.0.0": {
+        "dependencies": {
+          "DotLiquid": "2.2.677"
+        },
+        "runtime": {
+          "HorseTrack.dll": {}
+        }
+      },
+      "DotLiquid/2.2.677": {
+        "runtime": {
+          "lib/netstandard2.0/DotLiquid.dll": {
+            "assemblyVersion": "2.2.677.0",
+            "fileVersion": "2.2.677.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HorseTrack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotLiquid/2.2.677": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KTOybbNOCM+cAly2CeIn07lYSHiXH39uVE6+0Xu7GM0WgGMZKtmacq+MRxFfCUlriMGwGntur+UPuMqN2lIySw==",
+      "path": "dotliquid/2.2.677",
+      "hashPath": "dotliquid.2.2.677.nupkg.sha512"
+    }
+  }
+}

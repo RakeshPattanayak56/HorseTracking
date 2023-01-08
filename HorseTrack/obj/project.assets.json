@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DotLiquid/2.2.677": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/DotLiquid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/DotLiquid.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotLiquid/2.2.677": {
+      "sha512": "KTOybbNOCM+cAly2CeIn07lYSHiXH39uVE6+0Xu7GM0WgGMZKtmacq+MRxFfCUlriMGwGntur+UPuMqN2lIySw==",
+      "type": "package",
+      "path": "dotliquid/2.2.677",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "dotliquid.2.2.677.nupkg.sha512",
+        "dotliquid.nuspec",
+        "lib/net45/DotLiquid.dll",
+        "lib/net45/DotLiquid.xml",
+        "lib/net45/it/DotLiquid.resources.dll",
+        "lib/netstandard1.3/DotLiquid.dll",
+        "lib/netstandard1.3/DotLiquid.xml",
+        "lib/netstandard1.3/it/DotLiquid.resources.dll",
+        "lib/netstandard2.0/DotLiquid.dll",
+        "lib/netstandard2.0/DotLiquid.xml",
+        "lib/netstandard2.0/it/DotLiquid.resources.dll",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DotLiquid >= 2.2.677"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rahul\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Repository\\HorseTracking\\HorseTrack\\HorseTrack.csproj",
+      "projectName": "HorseTrack",
+      "projectPath": "D:\\Repository\\HorseTracking\\HorseTrack\\HorseTrack.csproj",
+      "packagesPath": "C:\\Users\\rahul\\.nuget\\packages\\",
+      "outputPath": "D:\\Repository\\HorseTracking\\HorseTrack\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\rahul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "DotLiquid": {
+            "target": "Package",
+            "version": "[2.2.677, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

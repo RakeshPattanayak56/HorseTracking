@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dGCGEbTkOPzm0Qvg/WyjDYSrnxwJ3CL0B7vqfc4Wq1SmO7jnKQmH8vyo3vJwCZIKFD09w1A8nLAboVVXEYaKWw==",
+  "success": true,
+  "projectFilePath": "D:\\Repository\\HorseTracking\\HorseTrack\\HorseTrack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rahul\\.nuget\\packages\\dotliquid\\2.2.677\\dotliquid.2.2.677.nupkg.sha512"
+  ],
+  "logs": []
+}
