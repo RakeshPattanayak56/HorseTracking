@@ -15,7 +15,8 @@ string[] horses = { "That Darn Gray Cat", "Fort Utopia", "Count Sheep", "Ms Trai
 int[] odds = { 5, 10, 9, 4, 3, 5, 6 };
 int[] denomination = new int[] { 100,20,10,5,1 };
 int[] inventory1 = { 10, 10, 10, 10, 10 };
-int[] inventory = new int[5];
+int[] inventory = inventory1;
+
 int amount = 136;
 string choice;
 
@@ -75,7 +76,7 @@ while (true)
             {
                 if (amount >= denomination[i])
                 {
-                    inventory[i] = amount / denomination[i];
+                    inventory[i] = inventory[i] - ( amount / denomination[i]);
                     amount = amount % denomination[i];
                 }
             }
@@ -98,6 +99,7 @@ while (true)
 
         case "Q":
             Console.WriteLine("\t\t THANKS FOR USING OUT ATM SERVICE");
+            System.Environment.Exit(0);
             break;
 
     }
